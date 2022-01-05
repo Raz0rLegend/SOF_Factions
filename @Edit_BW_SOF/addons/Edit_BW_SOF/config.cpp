@@ -87,7 +87,7 @@ class SensorTemplateLaser;
 class SensorTemplateNV;
 class SensorTemplateDataLink;
 
-class CfgWeapons 
+/*class CfgWeapons 
 {
 	class CannonCore;
 	class autocannon_Base_F;
@@ -217,7 +217,7 @@ class CfgWeapons
 			"UAS_120mm_F1B_10Rnd",
 			"UAS_120mm_F1B_Plus_10Rnd",
 			"UAS_120mm_SHARD_10Rnd"
-		};*/
+		};
 		//magazineWell[] = {"Veh_120mm_Smmoth_Cannon"};
 		reloadTime = 6;
 		dispersion = 0.00015;
@@ -289,7 +289,7 @@ class CfgWeapons
 	{
 		modes[] = {"player"};
 		reloadTime = 7;
-		/*magazines[] = 
+		magazines[] = 
 		{
 			"UAS_130mm_DM33_10Rnd",
 			"UAS_130mm_DM23_10Rnd",
@@ -297,7 +297,7 @@ class CfgWeapons
 			"UAS_130mm_DM33_1Rnd",
 			"UAS_130mm_DM23_1Rnd",
 			"UAS_130mm_DM13_1Rnd"
-		};*/
+		};
 		//magazineWell[] = {"Veh_130mm_Smmoth_Cannon"};
 		displayName = "Rh130 130mm";
 		maxRange = 6000;
@@ -369,13 +369,13 @@ class CfgWeapons
 	{
 		modes[] = {"player"};
 		reloadTime = 7.5;
-		/*magazines[] = 
+		magazines[] = 
 		{
 			"UAS_140mm_DM13_10Rnd",
 			"UAS_140mm_XM964_10Rnd",
 			"UAS_140mm_DM13_1Rnd",
 			"UAS_140mm_XM964_1Rnd"
-		};*/
+		};
 		displayName = "Cannon 140mm";
 		//magazineWell[] = {"Veh_140mm_Smmoth_Cannon"};
 		maxRange = 7000;
@@ -458,7 +458,7 @@ class CfgWeapons
 	class BWA3_MK30 : autocannon_Base_F
 	{
 		initSpeed = -1;
-		//magazineWell[] = {"Veh_30x173_Autocannon"};
+		magazineWell[] = {"Veh_30x173_Autocannon"};
 		muzzles[] = {"HE","AP"};
 		class HE : autocannon_Base_F 
 		{
@@ -472,9 +472,9 @@ class CfgWeapons
 				"UAS_Base_30x173_PGU13_160Rnd",
 				"UAS_Base_30x173_XM1171_160Rnd",
 				"UAS_Base_30x173_EDNKH_160Rnd"
-			};*/
-			//magazineWell[] = {"Veh_30x173_Autocannon"};
-		};	
+			};
+			magazineWell[] = {"Veh_30x173_Autocannon"};
+		};
 		
 		class AP : autocannon_Base_F 
 		{
@@ -493,11 +493,11 @@ class CfgWeapons
 				"UAS_Base_30x173_RD_FAP_160Rnd",
 				"UAS_Base_30x173_XM1170_160Rnd",				
 				"UAS_Base_30x173_Glasser_160Rnd",				
-			};*/
-			//magazineWell[] = {"Veh_30x173_Autocannon"};
+			};
+			magazineWell[] = {"Veh_30x173_Autocannon"};
 		};
-	};
-};
+	}; 
+};*/
 
 class HitPoints;
 class Turrets;
@@ -704,7 +704,7 @@ class CfgVehicles
 			class MainTurret: MainTurret
 			{
 				class ViewGunner;
-				/*weapons[]=
+				weapons[]=
 				{
 					"BWA3_MK30",
 					"BWA3_MG5_vehicle",
