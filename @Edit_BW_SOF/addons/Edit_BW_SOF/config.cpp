@@ -458,13 +458,13 @@ class CfgWeapons
 	class BWA3_MK30 : autocannon_Base_F
 	{
 		initSpeed = -1;
-		magazineWell[] = {"Veh_30x173_Autocannon"};
+		//magazineWell[] = {"Veh_30x173_Autocannon"};
 		muzzles[] = {"HE","AP"};
 		class HE : autocannon_Base_F 
 		{
 			displayName = "Mk30";
 			initSpeed = -1;
-			magazines[] = 
+			/*magazines[] = 
 			{
 				"UAS_Base_30x173_Mk310_160Rnd",
 				"UAS_Base_30x173_Mk238_160Rnd",
@@ -473,14 +473,14 @@ class CfgWeapons
 				"UAS_Base_30x173_XM1171_160Rnd",
 				"UAS_Base_30x173_EDNKH_160Rnd"
 			};*/
-			magazineWell[] = {"Veh_30x173_Autocannon"};
+			//magazineWell[] = {"Veh_30x173_Autocannon"};
 		};	
 		
 		class AP : autocannon_Base_F 
 		{
 			displayName = "Mk30";
 			initSpeed = -1;
-			magazines[] = 
+			/*magazines[] = 
 			{
 				"UAS_Base_30x173_M928_160Rnd",				
 				"UAS_Base_30x173_Mk258_Mod0_160Rnd",
@@ -494,7 +494,7 @@ class CfgWeapons
 				"UAS_Base_30x173_XM1170_160Rnd",				
 				"UAS_Base_30x173_Glasser_160Rnd",				
 			};*/
-			magazineWell[] = {"Veh_30x173_Autocannon"};
+			//magazineWell[] = {"Veh_30x173_Autocannon"};
 		};
 	};
 };
