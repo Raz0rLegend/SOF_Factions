@@ -1200,11 +1200,13 @@ class CfgVehicles
 					"Redd_Gesichert",
 					"Redd_35mm"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"Veh_35x228_HEI_640Rnd",
-					"Veh_35x228_DM23_640Rnd"
-				};*/
+					"Redd_35mm_HE_Mag",
+					"Redd_35mm_HE_Mag",
+					"Redd_35mm_AP_Mag",
+					"Redd_35mm_AP_Mag"
+				};
 			};
 			class Gepard_Bino_Turret_Com: NewTurret
 			{
@@ -1731,11 +1733,13 @@ class CfgVehicles
 					"Redd_Gesichert",
 					"Redd_MK20FL"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_Base_20x139_DM91_120Rnd",
-					"UAS_Base_20x139_DM63_120Rnd"
-				};*/
+					"Redd_MK20_AP_Mag120",
+					"Redd_MK20_AP_Mag120",
+					"Redd_MK20_HE_Mag200",
+					"Redd_MK20_HE_Mag200"
+				};
 				class ViewOptics: ViewOptics
 				{
 					visionMode[]=
@@ -1959,10 +1963,10 @@ class CfgVehicles
 						{
 							"Redd_SmokeLauncher"
 						};
-						/*magazines[]=
+						magazines[]=
 						{
 							"Redd_SmokeLauncherMag"
-						};*/
+						};
 						ace_fcs_Enabled=0;
 						gunnerOutOpticsModel="";
 						outGunnerMayFire=0;
@@ -2136,11 +2140,13 @@ class CfgVehicles
 					"Redd_Gesichert",
 					"Redd_MK20"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_Base_20x139_DM91_200Rnd",
-					"UAS_Base_20x139_DM63_200Rnd"
-				};*/
+					"Redd_MK20_AP_Mag",
+					"Redd_MK20_AP_Mag",
+					"Redd_MK20_HE_Mag",
+					"Redd_MK20_HE_Mag"
+				};
 				class ViewOptics: ViewOptics
 				{
 					visionMode[]=
@@ -2340,19 +2346,19 @@ class CfgVehicles
 				{
 					"Redd_MG3"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd"
-				};*/
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120",
+					"Redd_Mg3_Mag_120"
+				};
 				initElev=0;
 				minElev=-20;
 				maxElev=50;

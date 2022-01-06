@@ -710,17 +710,16 @@ class CfgVehicles
 					"BWA3_MG5_vehicle",
 					"BWA3_Spike_LR"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_Base_30x173_PGU14_160Rnd",
-					"UAS_Base_30x173_PGU13_160Rnd",
-					"UAS_BASE_762N_DM151_2000Rnd",
-					"UAS_BASE_762N_DM151_2000Rnd",
-					"UAS_L_SpikeLR2_Tandem_2Rnd",
-					"UAS_L_SpikeLR2_Tandem_2Rnd",
-					"UAS_L_SpikeLR2_Tandem_2Rnd",
-					"UAS_L_SpikeLR2_Tandem_2Rnd"
-				};*/
+					"BWA3_1200Rnd_762x51",
+					"BWA3_1200Rnd_762x51",
+					"BWA3_240Rnd_APFSDS_shells",
+					"BWA3_240Rnd_APFSDS_shells",
+					"BWA3_160Rnd_ABM_shells",
+					"BWA3_160Rnd_ABM_shells",
+					"BWA3_2rnd_Spike_LR"
+				};
 				class HitPoints
 				{
 					class HitTurret
@@ -2354,16 +2353,15 @@ class CfgVehicles
 					"BWA3_M2_vehicle_flw200",
 					"BWA3_Dingo_SmokeLauncher"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_BASE_127x99_DM13_100Rnd",
-					"UAS_BASE_127x99_DM13_100Rnd",
-					"UAS_BASE_127x99_DM13_100Rnd",
-					"UAS_BASE_127x99_DM13_100Rnd",
-					"UAS_BASE_127x99_DM13_100Rnd",
-					"UAS_BASE_127x99_DM13_100Rnd",
+					"100Rnd_127x99_mag_Tracer_Red",
+					"100Rnd_127x99_mag_Tracer_Red",
+					"100Rnd_127x99_mag_Tracer_Red",
+					"100Rnd_127x99_mag_Tracer_Red",
+					"100Rnd_127x99_mag_Tracer_Red",
 					"BWA3_Dingo_SmokeLauncherMag"
-				};*/
+				};
 			};
 		};
 	};
@@ -2381,22 +2379,13 @@ class CfgVehicles
 					"BWA3_GMW_vehicle_flw200",
 					"BWA3_Dingo_SmokeLauncher"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
-					"UAS_40mm_M430PI_64Rnd",
+					"200Rnd_40mm_G_belt",
+					"200Rnd_40mm_G_belt",
+					"200Rnd_40mm_G_belt",
 					"BWA3_Dingo_SmokeLauncherMag"
-				};*/
+				};
 			};
 		};
 	};
@@ -2413,20 +2402,16 @@ class CfgVehicles
 				{
 					"BWA3_MG3_vehicle_flw100"
 				};
-				/*magazines[]=
+				magazines[]=
 				{
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd",
-					"UAS_BASE_762N_DM151_200Rnd"
-				};*/
+					"BWA3_120Rnd_762x51_Tracer_soft",
+					"BWA3_120Rnd_762x51_Tracer_soft",
+					"BWA3_120Rnd_762x51_Tracer_soft",
+					"BWA3_120Rnd_762x51_Tracer_soft",
+					"BWA3_120Rnd_762x51_Tracer_soft",
+					"BWA3_120Rnd_762x51_Tracer_soft",
+					"BWA3_120Rnd_762x51_Tracer_soft"
+				};
 			};
 		};
 	};
